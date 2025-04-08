@@ -10,11 +10,9 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="logo">
+            <div className="logo text-center">
                 <Image src="/assets/img/logo-footer.png" alt="" className="w-auto h-auto" height={200} width={200} />
-              </div>
-              <div className="foote-content">
-                <p className="fs-2">
+                <p className="fs-5">
                   Your Fintech Frontier
                 </p>
               </div>

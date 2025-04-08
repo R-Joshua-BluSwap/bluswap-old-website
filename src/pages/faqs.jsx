@@ -58,7 +58,7 @@ export default function Faqs() {
                                             data-bs-parent="#faqAccordion"
                                         >
                                             <div className="accordion-body">
-                                                bluSwap is a leading fintech and Third-Party Service Provider (TPSP) dedicated to revolutionizing online payments. We empower businesses in India's digital economy with seamless, secure, and efficient payment solutions.
+                                                bluSwap is a leading fintech and Third-Party Service Provider (TPSP) dedicated to revolutionizing online payments. We empower businesses in India&apos;s digital economy with seamless, secure, and efficient payment solutions.
                                             </div>
                                         </div>
                                     </div>

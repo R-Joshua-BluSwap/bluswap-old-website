@@ -114,12 +114,18 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Unifying Payments and Banking Services | Fintech Frontier</title>
-        <meta name="description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses across India’s digital economy with seamless payment solutions." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name ="keywords" content="Fintech Frontier,Banking Services,Fintech,Third-Party Service Provider,Seamless API Integration,Payout Solutions"/>
-      </Head>
+<Head>
+  <title>Your Fintech Frontier I Unifying Payments & Banking Service</title>
+  <meta name="description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses across India’s digital economy with seamless payment solutions." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="Fintech Frontier,Banking Services,Fintech,Third-Party Service Provider,Seamless API Integration,Payout Solutions" />
+
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Your Fintech Frontier I Unifying Payments & Banking Service" />
+  <meta property="og:description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses with seamless payment solutions." />
+  <meta property="og:image" content="https://www.bluswap.co/favicon.ico" /> {/* Replace with your actual image URL */}
+</Head>
+
       <>
         <main className="container">
 

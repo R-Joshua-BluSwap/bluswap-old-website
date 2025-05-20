@@ -13,6 +13,9 @@ export default function Header() {
     const router = useRouter()
     const pathname = router.pathname
 
+    // Check if current route is enquire-now
+    const isEnquirePage = pathname === '/enquire-now';
+
     const styles = {
         backgroundColor: (pathname === '/finex' || pathname === '/blogs' || pathname === '/contact-us' || pathname === '/faqs') ? '#ECF4FF' : 'white',
     }

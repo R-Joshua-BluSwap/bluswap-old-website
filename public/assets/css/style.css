@@ -1102,7 +1102,7 @@ li span {
 }
 
 .accordion-button {
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px 0px;
 }
 
@@ -1949,9 +1949,50 @@ b {
     .key-features-carousel .box {
         margin: 0px 0px;
     }
+
+    .enquire h1 {
+        font-size: 35px !important;
+    }
 }
 
 .text-black {
     color: #000;
     font-size: 18px;
+}
+
+.rounded-2xl {
+    border-radius: 30px;
+}
+
+.style-form-input {
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    padding: 9px;
+}
+
+.carousel i {
+    color: #000;
+}
+
+.carousel img {
+    width: 50px;
+}
+
+
+.enquire-form {
+    text-align: left !important;
+}
+
+@media (min-width: 768px) {
+    .p-md-10 {
+        padding-top: 2rem !important;
+        padding-left: 3rem !important;
+        padding-right: 4rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .w-md-70 {
+        width: 70%;
+        margin: auto;
+    }
 }

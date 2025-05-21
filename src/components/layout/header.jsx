@@ -71,21 +71,21 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item d-lg-none">
-                                    <Link className="nav-link active" aria-current="page" href="https://finex.bluswap.co/#/login" onClick={closeNavbar}>
+                                    <Link className="nav-link active" aria-current="page" href="https://finex.bluswap.co/login" onClick={closeNavbar}>
                                         Sign In
                                     </Link>
                                 </li>
                                 <li className="nav-item d-lg-none">
-                                    <Link className="nav-link active btn btn-green px-4" aria-current="page" href="https://finex.bluswap.co/#/register" onClick={closeNavbar}>
+                                    <Link className="nav-link active btn btn-green px-4" aria-current="page" href="https://finex.bluswap.co/register" onClick={closeNavbar}>
                                         Sign Up
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <Link className="nav-link active text-black d-none d-lg-block px-4 me-3" aria-current="page" href="https://finex.bluswap.co/#/login" onClick={closeNavbar}>
+                        <Link className="nav-link active text-black d-none d-lg-block px-4 me-3" aria-current="page" href="https://finex.bluswap.co/login" onClick={closeNavbar}>
                             Sign In
                         </Link>
-                        <Link className="nav-link d-none d-lg-block active btn btn-green px-4" aria-current="page" href="https://finex.bluswap.co/#/register" onClick={closeNavbar}>
+                        <Link className="nav-link d-none d-lg-block active btn btn-green px-4" aria-current="page" href="https://finex.bluswap.co/register" onClick={closeNavbar}>
                             Sign Up
                         </Link>
                     </div>

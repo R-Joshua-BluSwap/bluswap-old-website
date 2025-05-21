@@ -142,7 +142,7 @@ export default function Home() {
                 <p className="lh-lg">
                   Welcome to <b> bluSwap,</b> your all-in-one payment solution designed to  <b> streamline financial operations</b> and  <b>accelerate business growth.</b>
                 </p>
-                <Link href="https://finex.bluswap.co/#/register" className="px-5 fs-5 py-2 btn btn-green fw-bold mt-4">
+                <Link href="https://finex.bluswap.co/register" className="px-5 fs-5 py-2 btn btn-green fw-bold mt-4">
                   Sign Up Now
                 </Link>
               </div>
@@ -341,7 +341,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="d-flex justify-content-center justify-content-md-start mt-5 mt-md-0">
-                <Link href="https://finex.bluswap.co/#/register" className="px-5 fs-5 py-2 btn btn-green fw-bold">
+                <Link href="https://finex.bluswap.co/register" className="px-5 fs-5 py-2 btn btn-green fw-bold">
                   Sign Up Now
                 </Link>
               </div>

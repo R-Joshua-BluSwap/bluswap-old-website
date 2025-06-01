@@ -17,7 +17,7 @@ export default function Header() {
     const isEnquirePage = pathname === '/enquire-now';
 
     const styles = {
-        backgroundColor: (pathname === '/finex' || pathname === '/blogs' || pathname === '/contact-us' || pathname === '/faqs') ? '#ECF4FF' : 'white',
+        backgroundColor: (pathname === '/finex' || pathname === '/blog' || pathname === '/contact-us' || pathname === '/faqs') ? '#ECF4FF' : 'white',
     }
 
     const closeNavbar = () => {
@@ -61,7 +61,7 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" href="/blogs" onClick={closeNavbar}>
+                                    <Link className="nav-link active" aria-current="page" href="/blog" onClick={closeNavbar}>
                                         Blog
                                     </Link>
                                 </li>

@@ -7,33 +7,37 @@ import Image from 'next/image'
 
 
 export default function Blogs() {
-  const [blogs, setBlogs] = useState([{
+  const [blogs] = useState([
+  //   {
+  //   id: 1,
+  //   title: "Sessions 2023: Powering growth for the internet economy",
+  //   description: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+  //   metaTitle: "Powering growth for the internet economy – bluSwap",
+  //   metaDescription: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+  //   metaKeywords: "bluSwap, bluSwap blogs, Fintech solutions, payment solution, Fintech, bluSwap&#39;s Fintech, Payment Industry Future, What is Fintech, Future of fintech, Future of Payment Industry, AI in Payment processing.",
+  //   canonicalURL: "https://bluswap.co/blog/sessions-2023-powering-growth-for-the-internet-economy",
+  //   image: ""
+  // }, 
+  {
     id: 1,
-    title: "Sessions 2023: Powering growth for the internet economy",
-    description: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
-    metaTitle: "Powering growth for the internet economy – bluSwap",
-    metaDescription: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
-    metaKeywords: "bluSwap, bluSwap blogs, Fintech solutions, payment solution, Fintech, bluSwap&#39;s Fintech, Payment Industry Future, What is Fintech, Future of fintech, Future of Payment Industry, AI in Payment processing.",
-    canonicalURL: "https://bluswap.co/blog/sessions-2023-powering-growth-for-the-internet-economy",
-    image: ""
-  }, {
-    id: 2,
-    title: "What is fintech?",
-    description: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+    title: "What is fintech? - bluSwap",
+    description: "More than 250,000 companies now use Stripe’s revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
     metaTitle: "What is fintech? - bluSwap",
     metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
     metaKeywords: "bluSwap, bluSwap blogs, Fintech, bluSwap's Fintech, What is Fintech, Future of fintech",
     canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
-    image: "/assets/img/blogs/blog2.png"
+    image: "/assets/img/blogs/blog2.png",
+    url: "/blog/what-is-fintech"
   }, {
-    id: 3,
+    id: 2,
     title: "The Evolution of the Payments Industry",
     description: "In the upcoming year, the payments industry will face elevated risk levels, heightened regulatory scrutiny, and substantial shifts in global standards.",
     metaTitle: "The Evolution of the Payments Industry - bluSwap",
     metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
     metaKeywords: "bluSwap's Fintech, Fintech,Future of Payment Industry, Payment Industry Future",
     canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
-    image: "/assets/img/blogs/blog3.png"
+    image: "/assets/img/blogs/blog3.png",
+    url: "/blog/the-evolution-of-the-payments-industry"
   }])
 
   // Function to format title for URL - replace spaces with hyphens and remove special characters
@@ -69,7 +73,7 @@ export default function Blogs() {
                   </div>
                   <div className="read-more-btn">
                     <button>
-                      <Link href="/blogs/details/">Read More</Link>
+                      <Link href="/blog/details/">Read More</Link>
                     </button>
                   </div>
                 </div>
@@ -95,7 +99,7 @@ export default function Blogs() {
                         padding: '15px',
                       }}>
 
-                        <Link href="/blogs" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                        <Link href={item.url} style={{ display: 'flex', flexDirection: 'column', height: '100%' }} passHref>
                           <div className="blog-img" style={{ height: '200px', overflow: 'hidden', position: 'relative' }}>
                             {item.image ? (
                               <Image

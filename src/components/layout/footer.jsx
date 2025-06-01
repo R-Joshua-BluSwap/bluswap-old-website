@@ -90,7 +90,7 @@ export default function Footer() {
                   <b>RESOURCES</b>
                 </li>
                 <li>
-                  <Link href="/blogs"> Blog </Link>
+                  <Link href="/blog"> Blog </Link>
                 </li>
               </ul>
             </div>

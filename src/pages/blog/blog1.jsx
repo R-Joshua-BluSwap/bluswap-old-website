@@ -7,7 +7,7 @@ export default function Blog1({ currentBlog }) {
             <h1 className="text-3xl font-bold mb-4">What is Fintech?</h1>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
                 <div className="blog-img" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '200px', width: '400px', overflow: 'hidden', position: 'relative' }}>
-                    <Image
+                   {currentBlog?.image && <Image
                         src={currentBlog.image && currentBlog.image}
                         alt={currentBlog.title}
                         height={200}
@@ -20,10 +20,10 @@ export default function Blog1({ currentBlog }) {
                             top: 0,
                             left: 0
                         }}
-                    />
+                    />}
                 </div></div>
             <p className="mb-4">
-                Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.
+                Fintech&apos;s are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.
             </p>
             <p className="mb-4">
                 you’re almost more likely to see the inside of a bank branch in an old movie than you are in real life. But take a look at your phone: there are probably at least two money apps on your home screen maybe more. According to McKinsey research, this is just one sign of a&nbsp;

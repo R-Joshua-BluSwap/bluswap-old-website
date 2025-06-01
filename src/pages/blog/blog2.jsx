@@ -8,7 +8,7 @@ export default function Blog2({ currentBlog }) {
             <h1 className="text-3xl font-bold mb-4">The Evolution of the Payments Industry</h1>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
                 <div className="blog-img" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '400px', width: '600px', overflow: 'hidden', position: 'relative' }}>
-                    <Image
+                    {currentBlog?.image && <Image
                         src={currentBlog.image && currentBlog.image}
                         alt={currentBlog.title}
                         height={200}
@@ -21,7 +21,7 @@ export default function Blog2({ currentBlog }) {
                             top: 0,
                             left: 0
                         }}
-                    />
+                    />}
                 </div></div>
 
                 <p>

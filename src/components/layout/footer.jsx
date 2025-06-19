@@ -9,7 +9,7 @@ export default function Footer() {
       <footer className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
             <div className="logo text-center">
                 <Image src="/assets/img/logo-footer.png" alt="" className="w-auto h-auto" height={200} width={200} />
                 <p className="fs-5">
@@ -94,7 +94,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-3">
               <ul>
                 <li>
                   <b>LEGAL</b>
@@ -107,7 +107,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link href="/refund-policy">
-                    Cancellation and Refund Policy
+                  Cancellation&nbsp;and&nbsp;Refund&nbsp;Policy
                   </Link>
                 </li>
                 <li>

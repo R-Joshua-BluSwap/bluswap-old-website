@@ -167,8 +167,7 @@ export default function ContactUs() {
                 <div className="col-md-6 details-box border-end">
                   <h3>Registered Address</h3>
                   <p>
-                    WebFinex TechFusion Pvt Ltd <br /> B-101, Ashoka Enclave, Motera, Ahmedabad
-                    380005 (GJ)
+                    WebFinex TechFusion Pvt Ltd <br /> 2HVC+V3P, Ashram Rd, beside Navgujarat College Of <br/> Computer Applications, nr. Hyatt Regency, Income Tax, Usmanpura,<br/>Ahmedabad, Gujarat 380009
                   </p>
                   <hr className="d-md-none address-line" />
                 </div>

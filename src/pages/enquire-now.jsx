@@ -153,7 +153,7 @@ const EnquireNow = () => {
 
                 <meta property="og:title" content="Powering Seamless, Secure Payments for Your Business" />
                 <meta property="og:description" content="Accept payments instantly and manage your cash flow smarter with our advanced gateway solutions. Experience the reliability and security that businesses trust." />
-                <meta property="og:image" content="https://www.bluswap.co/enquire-now" />
+                <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
                 <meta property="og:url" content="https://www.bluswap.co/enquire-now" />
                 <meta property="og:type" content="website" />
 

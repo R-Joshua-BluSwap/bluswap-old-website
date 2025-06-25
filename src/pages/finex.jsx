@@ -11,12 +11,14 @@ export default function Finex() {
                     <title>FineX - Payment SaaS &  Marketplace Offerings - bluSwap</title>
                     <meta name="description" content="Welcome to bluSwap FineX, your all-in-one payment solution designed to streamline financial operations and accelerate business growth. Get started today." />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <meta name="keywords" content="Payment SaaS, Marketplace Offerings, SaaS Solutions, Automated Cash Flow Management, Unified Payment Processing"/>
+                    <meta name="keywords" content="Payment SaaS, Marketplace Offerings, SaaS Solutions, Automated Cash Flow Management, Unified Payment Processing" />
                     <meta name="url" content="https://www.bluswap.co/finex" />
 
                     <meta property="og:title" content="FineX - Payment SaaS &  Marketplace Offerings - bluSwap" />
                     <meta property="og:description" content="Welcome to bluSwap FineX, your all-in-one payment solution designed to streamline financial operations and accelerate business growth. Get started today." />
-                    <meta property="og:image" content="https://www.bluswap.co/finex" />
+                    <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
                     <meta property="og:url" content="https://www.bluswap.co/finex" />
                     <meta property="og:type" content="website" />
                     <meta name="canonical" content="https://www.bluswap.co/finex" />

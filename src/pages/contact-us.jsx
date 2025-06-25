@@ -32,7 +32,7 @@ export default function ContactUs() {
 
         <meta property="og:title" content="Contact Us | Get in Touch with us - bluSwap" />
         <meta property="og:description" content="Get Started in Minutes! Join thousands of businesses simplifying payments with bluSwap. Contact us today!" />
-        <meta property="og:image" content="https://www.bluswap.co/contact-us" />
+        <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
         <meta property="og:url" content="https://www.bluswap.co/contact-us" />
         <meta property="og:type" content="website" />
 

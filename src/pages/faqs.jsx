@@ -14,7 +14,7 @@ export default function Faqs() {
 
                 <meta property="og:title" content="FAQs | bluSwap Help Center" />
                 <meta property="og:description" content="Find answers to common questions about bluSwap's secure transactions, API integration, and financial solutions in our comprehensive FAQ section." />
-                <meta property="og:image" content="https://www.bluswap.co/faqs" />
+                <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
                 <meta property="og:url" content="https://www.bluswap.co/faqs" />
                 <meta property="og:type" content="website" />
 

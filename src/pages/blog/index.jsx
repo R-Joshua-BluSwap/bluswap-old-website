@@ -64,7 +64,7 @@ export default function Blogs() {
 
         <meta property="og:title" content="Blog - bluSwap | Your Fintech Frontier" />
         <meta property="og:description" content="Welcome to bluSwap blogs, the place to learn more about payment solution, financial operations,  business growth, banking services & market place offerings." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
         <meta property="og:url" content="https://www.bluswap.co/blogs" />
         <meta property="og:type" content="website" />
 

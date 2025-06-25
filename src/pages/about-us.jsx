@@ -15,7 +15,7 @@ export default function AboutUs() {
 
                 <meta property="og:title" content="Premier Payment Marketplace | Payment Solutions - bluSwap" />
                 <meta property="og:description" content="Your Premier Payment Marketplace for Ecommerce is dedicated to revolutionizing online payments with fast, secure, and user-friendly payment solutions." />
-                <meta property="og:image" content="https://www.bluswap.co/about-us" />
+                <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
                 <meta property="og:url" content="https://www.bluswap.co/about-us" />
                 <meta property="og:type" content="website" />
 

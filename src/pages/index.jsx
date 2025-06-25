@@ -123,7 +123,7 @@ export default function Home() {
   {/* Open Graph tags */}
   <meta property="og:title" content="Your Fintech Frontier I Unifying Payments & Banking Service" />
   <meta property="og:description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses across India’s digital economy with seamless payment solutions." />
-  <meta property="og:image" content="https://www.bluswap.co/" /> {/* Replace with your actual image URL */}
+  <meta property="og:image" content="https://www.bluswap.co/favicon.png" /> {/* Replace with your actual image URL */}
   <meta property="og:url" content="https://www.bluswap.co/" />
   <meta property="og:type" content="website" />
   <meta name="canonical" content="https://www.bluswap.co/" />

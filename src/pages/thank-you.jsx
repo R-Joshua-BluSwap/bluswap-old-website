@@ -25,7 +25,7 @@ const ThankYou = () => {
 
         <meta property="og:title" content="Thank You!  - bluSwap" />
         <meta property="og:description" content="Our team will review your enquiry and get back to you within 24 hours. We appreciate your interest in our services." />
-        <meta property="og:image" content="https://www.bluswap.co/thank-you" />
+        <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
         <meta property="og:url" content="https://www.bluswap.co/thank-you" />
         <meta property="og:type" content="website" />
 

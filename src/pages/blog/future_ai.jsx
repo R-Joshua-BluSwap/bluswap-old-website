@@ -6,7 +6,7 @@ export default function FutureAI() {
             <h1 className="text-3xl font-bold mb-4">The Future of AI in Payment Processing: Transforming Transactions with Intelligent Solutions</h1>
             <p className="mb-4">
                 The rapid evolution of artificial intelligence (AI) is revolutionising numerous industries, and payment processing is no exception. As digital transactions become the norm, the integration of AI in payment systems promises to enhance security, streamline processes, and offer personalised customer experiences. For companies like&nbsp;
-                <Link target='_blank' href="https://www.bluswap.co/finex">bluSwap FineX</Link>, leveraging AI technology is not just about keeping up with trends; it's about setting new standards in efficiency and innovation. This blog explores the current trends, benefits, challenges, and future potential of AI in payment processing.
+                <Link target='_blank' href="https://www.bluswap.co/finex">bluSwap FineX</Link>, leveraging AI technology is not just about keeping up with trends; it&apos;s about setting new standards in efficiency and innovation. This blog explores the current trends, benefits, challenges, and future potential of AI in payment processing.
             </p>
             <h2 className='mb-4'>Current Trends in AI for Payment Processing</h2>
             <p className="mb-4">

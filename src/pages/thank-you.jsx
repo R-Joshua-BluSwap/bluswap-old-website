@@ -17,8 +17,19 @@ const ThankYou = () => {
   return (
     <>
       <Head>
-        <title>Thank You - bluSwap</title>
-        <meta name="description" content="Thank you for your enquiry. We'll get back to you within 24 hours." />
+        <title>Thank You!  - bluSwap</title>
+        <meta name="description" content="Our team will review your enquiry and get back to you within 24 hours. We appreciate your interest in our services." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="" />
+        <meta name="url" content="https://www.bluswap.co/thank-you" />
+
+        <meta property="og:title" content="Thank You!  - bluSwap" />
+        <meta property="og:description" content="Our team will review your enquiry and get back to you within 24 hours. We appreciate your interest in our services." />
+        <meta property="og:image" content="https://www.bluswap.co/thank-you" />
+        <meta property="og:url" content="https://www.bluswap.co/thank-you" />
+        <meta property="og:type" content="website" />
+
+        <meta name="canonical" content="https://www.bluswap.co/thank-you" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
         <script
           dangerouslySetInnerHTML={{

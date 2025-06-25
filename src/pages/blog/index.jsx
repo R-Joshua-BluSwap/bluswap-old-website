@@ -8,37 +8,37 @@ import Image from 'next/image'
 
 export default function Blogs() {
   const [blogs] = useState([
-  //   {
-  //   id: 1,
-  //   title: "Sessions 2023: Powering growth for the internet economy",
-  //   description: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
-  //   metaTitle: "Powering growth for the internet economy – bluSwap",
-  //   metaDescription: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
-  //   metaKeywords: "bluSwap, bluSwap blogs, Fintech solutions, payment solution, Fintech, bluSwap&#39;s Fintech, Payment Industry Future, What is Fintech, Future of fintech, Future of Payment Industry, AI in Payment processing.",
-  //   canonicalURL: "https://bluswap.co/blog/sessions-2023-powering-growth-for-the-internet-economy",
-  //   image: ""
-  // }, 
-  {
-    id: 1,
-    title: "What is fintech? - bluSwap",
-    description: "More than 250,000 companies now use Stripe’s revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
-    metaTitle: "What is fintech? - bluSwap",
-    metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
-    metaKeywords: "bluSwap, bluSwap blogs, Fintech, bluSwap's Fintech, What is Fintech, Future of fintech",
-    canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
-    image: "/assets/img/blogs/blog2.png",
-    url: "/blog/what-is-fintech"
-  }, {
-    id: 2,
-    title: "The Evolution of the Payments Industry",
-    description: "In the upcoming year, the payments industry will face elevated risk levels, heightened regulatory scrutiny, and substantial shifts in global standards.",
-    metaTitle: "The Evolution of the Payments Industry - bluSwap",
-    metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
-    metaKeywords: "bluSwap's Fintech, Fintech,Future of Payment Industry, Payment Industry Future",
-    canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
-    image: "/assets/img/blogs/blog3.png",
-    url: "/blog/the-evolution-of-the-payments-industry"
-  }])
+    //   {
+    //   id: 1,
+    //   title: "Sessions 2023: Powering growth for the internet economy",
+    //   description: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+    //   metaTitle: "Powering growth for the internet economy – bluSwap",
+    //   metaDescription: "More than 250,000 companies now use Stripe's revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+    //   metaKeywords: "bluSwap, bluSwap blogs, Fintech solutions, payment solution, Fintech, bluSwap&#39;s Fintech, Payment Industry Future, What is Fintech, Future of fintech, Future of Payment Industry, AI in Payment processing.",
+    //   canonicalURL: "https://bluswap.co/blog/sessions-2023-powering-growth-for-the-internet-economy",
+    //   image: ""
+    // }, 
+    {
+      id: 1,
+      title: "What is fintech?",
+      description: "More than 250,000 companies now use Stripe’s revenue and finance tools, and our automated revenue recovery features earned businesses an extra $3.8 billion in 2022.",
+      metaTitle: "What is fintech? - bluSwap",
+      metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
+      metaKeywords: "bluSwap, bluSwap blogs, Fintech, bluSwap's Fintech, What is Fintech, Future of fintech",
+      canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
+      image: "/assets/img/blogs/blog2.png",
+      url: "/blog/what-is-fintech"
+    }, {
+      id: 2,
+      title: "The Evolution of the Payments Industry",
+      description: "In the upcoming year, the payments industry will face elevated risk levels, heightened regulatory scrutiny, and substantial shifts in global standards.",
+      metaTitle: "The Evolution of the Payments Industry - bluSwap",
+      metaDescription: "Fintech's are companies that rely primarily on technology and cloud services and less so on physical locations to provide financial services to customers.",
+      metaKeywords: "bluSwap's Fintech, Fintech,Future of Payment Industry, Payment Industry Future",
+      canonicalURL: "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-fintech",
+      image: "/assets/img/blogs/blog3.png",
+      url: "/blog/the-evolution-of-the-payments-industry"
+    }])
 
   // Function to format title for URL - replace spaces with hyphens and remove special characters
   const formatTitleForURL = (title) => {
@@ -59,7 +59,16 @@ export default function Blogs() {
         <title>Blog - bluSwap | Your Fintech Frontier</title>
         <meta name="description" content="Welcome to bluSwap blogs, the place to learn more about payment solution, financial operations,  business growth, banking services & market place offerings." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="The Future of AI in Payment Processing"/>
+        <meta name="keywords" content="The Future of AI in Payment Processing" />
+        <meta name="url" content="https://www.bluswap.co/blogs" />
+
+        <meta property="og:title" content="Blog - bluSwap | Your Fintech Frontier" />
+        <meta property="og:description" content="Welcome to bluSwap blogs, the place to learn more about payment solution, financial operations,  business growth, banking services & market place offerings." />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://www.bluswap.co/blogs" />
+        <meta property="og:type" content="website" />
+
+        <meta name="canonical" content="https://www.bluswap.co/blogs" />
       </Head>
       <>
         <main>
@@ -73,13 +82,13 @@ export default function Blogs() {
                   </div>
                   <div className="read-more-btn">
                     <button>
-                      <Link href="/blog/details/">Read More</Link>
+                      <Link href="/blog/the-future-of-ai-in-payment-processing">Read More</Link>
                     </button>
                   </div>
                 </div>
                 <div className="col-md-6 order-1 order-md-2">
                   <div className="blog-main-img">
-                    <Image src="assets/img/blog-main.svg" alt="" width={500} height={500} className='w-100 h-auto' />
+                    <Image src="assets/img/blog-main.svg" alt="bluSwap Blogs" width={500} height={500} className='w-100 h-auto' />
                   </div>
                 </div>
               </div>

@@ -119,13 +119,15 @@ export default function Home() {
   <meta name="description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses across India’s digital economy with seamless payment solutions." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="Fintech Frontier,Banking Services,Fintech,Third-Party Service Provider,Seamless API Integration,Payout Solutions" />
-
+  <meta name="url" content="https://www.bluswap.co/" />
   {/* Open Graph tags */}
   <meta property="og:title" content="Your Fintech Frontier I Unifying Payments & Banking Service" />
-  <meta property="og:description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses with seamless payment solutions." />
-  <meta property="og:image" content="https://www.bluswap.co/favicon.png" /> {/* Replace with your actual image URL */}
+  <meta property="og:description" content="bluSwap is a leading Fintech and third-party Service Provider that empowers businesses across India’s digital economy with seamless payment solutions." />
+  <meta property="og:image" content="https://www.bluswap.co/" /> {/* Replace with your actual image URL */}
+  <meta property="og:url" content="https://www.bluswap.co/" />
+  <meta property="og:type" content="website" />
+  <meta name="canonical" content="https://www.bluswap.co/" />
 </Head>
-
       <>
         <main className="container">
 
@@ -149,7 +151,7 @@ export default function Home() {
             </div>
             <div className="d-none d-md-block col-md-6 px-0">
               <div className="fetched-image">
-                <Image src="/assets/img/new-main.svg" alt="" height={500} width={1000} />
+                <Image src="/assets/img/new-main.svg" alt="bluSwap - Your Fintech Frontier" height={500} width={1000} />
               </div>
             </div>
           </div>
@@ -162,7 +164,7 @@ export default function Home() {
             </p>
             <div className="row mt-4 mt-md-5 align-items-center">
               <div className="col-md-6 pt-2">
-                <Image src="/assets/img/payment-future.svg" alt="" className="img-fluid" height={400} width={600} />
+                <Image src="/assets/img/payment-future.svg" alt="Experience the Future of Payment" className="img-fluid" height={400} width={600} />
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <p className="text-start lh-md p-md-4">
@@ -216,7 +218,7 @@ export default function Home() {
             <div className="key-features-carousel">
               <div className="box mb-5 mb-md-0 key-features-box">
                 <div className="key-icon">
-                  <Image src="/assets/img/products/instant.png" alt="" className="img-fluid" height={300} width={300} />
+                  <Image src="/assets/img/products/instant.png" alt="Instant Payouts & Settlements" className="img-fluid" height={300} width={300} />
                 </div>
                 <div className="key-info-2">
                   <h4>Instant Payouts &
@@ -225,7 +227,7 @@ export default function Home() {
               </div>
               <div className="box mb-5 mb-md-0 key-features-box">
                 <div className="key-icon">
-                  <Image src="/assets/img/products/global.png" alt="" className="img-fluid" height={300} width={300} />
+                  <Image src="/assets/img/products/global.png" alt="Global & Domestic Payment Support" className="img-fluid" height={300} width={300} />
                 </div>
                 <div className="key-info-2">
                   <h4>Global & Domestic
@@ -236,7 +238,7 @@ export default function Home() {
                 <div className="key-icon">
                   <Image
                     src="/assets/img/products/subscription.png"
-                    alt=""
+                    alt="Subscription & Recurring Billing"
                     style={{ padding: "1px" }}
                     height={300}
                     className="img-fluid"
@@ -249,7 +251,7 @@ export default function Home() {
               </div>
               <div className="box mb-5 mb-md-0 key-features-box">
                 <div className="key-icon">
-                  <Image src="/assets/img/products/fraud.png" className="img-fluid" alt="" height={300} width={300} />
+                  <Image src="/assets/img/products/fraud.png" className="img-fluid" alt="Fraud Protection - bluSwap" height={300} width={300} />
                 </div>
                 <div className="key-info-2">
                   <h4>Fraud Protection &
@@ -260,7 +262,7 @@ export default function Home() {
                 <div className="key-icon">
                   <Image
                     src="/assets/img/products/omnichannel.png"
-                    alt=""
+                    alt="Omnichannel Payment Experience"
                     style={{ padding: "6px" }}
                     height={300}
                     className="img-fluid"
@@ -287,7 +289,7 @@ export default function Home() {
                 <div className="pl-5 box-text-blue">
 
                   <div className="d-md-flex align-items-center mb-5">
-                    <Image src="/assets/img/svg/d2c.png" alt="" width={50} height={50} className="me-4" />
+                    <Image src="/assets/img/svg/d2c.png" alt="D2C Brands - bluSwap" width={50} height={50} className="me-4" />
                     <div className="text-md-start box-content">
                       <h5 className="fs-4">
                         D2C Brands
@@ -299,7 +301,7 @@ export default function Home() {
                   </div>
 
                   <div className="d-md-flex align-items-center mb-5">
-                    <Image src="/assets/img/svg/education.png" alt="" width={50} height={50} className="me-4" />
+                    <Image src="/assets/img/svg/education.png" alt="Education Platforms - bluSwap" width={50} height={50} className="me-4" />
                     <div className="text-md-start box-content">
                       <h5 className="fs-4">
                         Education Platforms
@@ -311,7 +313,7 @@ export default function Home() {
                   </div>
 
                   <div className="d-md-flex align-items-center mb-5">
-                    <Image src="/assets/img/svg/online.png" alt="" width={50} height={50} className="me-4" />
+                    <Image src="/assets/img/svg/online.png" alt="Online Transportation Services" width={50} height={50} className="me-4" />
                     <div className="text-md-start box-content">
                       <h5 className="fs-4">
                         Online Transportation Services
@@ -323,7 +325,7 @@ export default function Home() {
                   </div>
 
                   <div className="d-md-flex align-items-center">
-                    <Image src="/assets/img/svg/msmes.png" alt="" width={50} height={50} className="me-4" />
+                    <Image src="/assets/img/svg/msmes.png" alt="MSMEs & SMEs - bluSwap" width={50} height={50} className="me-4" />
                     <div className="text-md-start box-content">
                       <h5 className="fs-4">
                         MSMEs & SMEs
@@ -337,7 +339,7 @@ export default function Home() {
               </div>
               <div className="d-none d-md-block col-md-6 px-0">
                 <div className="fetched-image">
-                  <Image src="/assets/img/boy.svg" alt="" height={550} width={600} />
+                  <Image src="/assets/img/boy.svg" alt="Powering Payments for the Digital Economy" height={550} width={600} />
                 </div>
               </div>
               <div className="d-flex justify-content-center justify-content-md-start mt-5 mt-md-0">
@@ -374,7 +376,7 @@ export default function Home() {
           <div className="sec-img">
             <Image
               src="/assets/img/steps.svg"
-              alt=""
+              alt="Get Started in Minutes"
               className="h-auto w-100"
               width={1000}
               height={1000}

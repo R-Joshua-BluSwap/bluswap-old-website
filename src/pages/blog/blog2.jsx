@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link'
 
 export default function Blog2({ currentBlog }) {
-    console.log(currentBlog);
     return (
         <div>
             <h1 className="text-3xl font-bold mb-4">The Evolution of the Payments Industry</h1>

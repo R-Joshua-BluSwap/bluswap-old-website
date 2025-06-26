@@ -43,10 +43,20 @@ export default function Blog() {
     image: "/assets/img/blogs/blog3.png",
     url: "/blog/the-evolution-of-the-payments-industry",
     component: 'blog2'
+  },  {
+    id: 3,
+    title: "The Future of AI in Payment Processing - bluSwap",
+    description: "In the upcoming year, the payments industry will face elevated risk levels, heightened regulatory scrutiny, and substantial shifts in global standards.",
+    metaTitle: "The Future of AI in Payment Processing - bluSwap",
+    metaDescription: "The rapid evolution of artificial intelligence (AI) is revolutionising numerous industries, and payment processing is no exception. Read more about the future of AI in Payment processing",
+    metaKeywords: "bluSwap, bluSwap blogs, Fintech, bluSwap's Fintech, Fintech, Future of Payment Industry, Payment Industry Future, Payment Service provider",
+    canonicalURL: "https://www.bluswap.co/blog/The Future of AI in Payment Processing",
+    image: "",
+    url: "/blog/the-future-of-ai-in-payment-processing",
+    component: 'future_ai'
   }])
 
   const [currentBlog, setCurrentBlog] = useState(null);
-      console.log(currentBlog)
 
   // Function to format title for URL comparison
   const formatTitleForURL = (title) => {
@@ -60,7 +70,8 @@ export default function Blog() {
 
   useEffect(() => {
     if (slug) {
-      console.log('Current slug:', slug,  formatTitleForURL(blogs[0].url));
+      console.log('Current slug:', slug);
+      console.log(formatTitleForURL(blogs[0].url))
       // Find the blog that matches the slug
       const foundBlog = blogs.find(blog => formatTitleForURL(blog.url) === `blog${slug}`);
       if (foundBlog) {

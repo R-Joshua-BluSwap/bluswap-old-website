@@ -10,7 +10,16 @@ export default function AboutUs() {
                 <title>Premier Payment Marketplace | Payment Solutions - bluSwap</title>
                 <meta name="description" content="Your Premier Payment Marketplace for Ecommerce is dedicated to revolutionizing online payments with fast, secure, and user-friendly payment solutions." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="keywords" content="Payment Marketplace, payment solutions"/>
+                <meta name="keywords" content="Payment Marketplace, payment solutions" />
+                <meta name="url" content="https://www.bluswap.co/about-us" />
+
+                <meta property="og:title" content="Premier Payment Marketplace | Payment Solutions - bluSwap" />
+                <meta property="og:description" content="Your Premier Payment Marketplace for Ecommerce is dedicated to revolutionizing online payments with fast, secure, and user-friendly payment solutions." />
+                <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
+                <meta property="og:url" content="https://www.bluswap.co/about-us" />
+                <meta property="og:type" content="website" />
+
+                <meta name="canonical" content="https://www.bluswap.co/about-us" />
             </Head>
             <>
                 <main>
@@ -35,33 +44,33 @@ export default function AboutUs() {
                             </div>
                             <div className="col-md-6 order-1 order-md-2">
                                 <div className="main-img">
-                                    <img src="/assets/img/about-us-main.svg" alt="" />
+                                    <img src="/assets/img/about-us-main.svg" alt="About bluSwap®" />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="about-box">
                         <div className="main-image-box">
-                            <img src="/assets/img/image4.svg" alt="" />
+                            <img src="/assets/img/image4.svg" alt="bluSwap Mission" />
                         </div>
                         <div className="box-description">
                             <div className="info-box">
                                 <div className="image-box">
-                                    <img src="/assets/img/svg/home.svg" alt="" />
+                                    <img src="/assets/img/svg/home.svg" alt="50+ Online Business" />
                                 </div>
                                 <h4>50+</h4>
                                 <p>Online Business</p>
                             </div>
                             <div className="info-box">
                                 <div className="image-box">
-                                    <img src="/assets/img/svg/card.svg" alt="" />
+                                    <img src="/assets/img/svg/card.svg" alt="1M+ Transaction Provided" />
                                 </div>
                                 <h4>1M+</h4>
                                 <p>Transaction Provided</p>
                             </div>
                             <div className="info-box">
                                 <div className="image-box">
-                                    <img src="/assets/img/svg/banck.svg" alt="" />
+                                    <img src="/assets/img/svg/banck.svg" alt="Banking Partner - bluSwap" />
                                 </div>
                                 <h4>10+</h4>
                                 <p>Banking Partner</p>
@@ -86,7 +95,7 @@ export default function AboutUs() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <Image src="/assets/img/svg/box.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                    <Image src="/assets/img/svg/box.svg" alt="Vision for Business - bluSwap" className='h-auto w-auto' width={500} height={500} />
                                     <h3>Vision for Business</h3>
                                     <p>
                                         We aim to revolutionize digital payments for businesses, providing
@@ -95,7 +104,7 @@ export default function AboutUs() {
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <Image src="/assets/img/svg/men.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                    <Image src="/assets/img/svg/men.svg" alt="Vision for Payer (Consumer/User)" className='h-auto w-auto' width={500} height={500} />
                                     <h3>Vision for Payer (Consumer/User)</h3>
                                     <p>
                                         We aim to provide payers with seamless, secure, and easy digital
@@ -103,7 +112,7 @@ export default function AboutUs() {
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <Image src="/assets/img/svg/mask.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                    <Image src="/assets/img/svg/mask.svg" alt="Vision for Ecosystem" className='h-auto w-auto' width={500} height={500} />
                                     <h3>Vision for Ecosystem</h3>
                                     <p>
                                         We aim to foster innovation, collaboration, and financial inclusion,
@@ -125,7 +134,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/efficiency.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/efficiency.svg" alt="Efficiency" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Efficiency</h4>
@@ -140,7 +149,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/growth.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/growth.svg" alt="bluSwap Growth" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Growth</h4>
@@ -155,7 +164,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/competitive-edge.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/competitive-edge.svg" alt="Competitive Edge" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Competitive Edge</h4>
@@ -172,7 +181,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/financial-inclusion.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/financial-inclusion.svg" alt="Financial Inclusion" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Financial Inclusion</h4>
@@ -186,7 +195,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/economic-growth.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/economic-growth.svg" alt="Economic Growth" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Economic Growth</h4>
@@ -201,7 +210,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/regulatory-compliance.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/regulatory-compliance.svg" alt="Regulatory Compliance" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Regulatory Compliance</h4>
@@ -218,7 +227,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/security.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/security.svg" alt="Security" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Security</h4>
@@ -233,7 +242,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/transparency.svg" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/transparency.svg" alt="Transperency" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Transparency</h4>
@@ -248,7 +257,7 @@ export default function AboutUs() {
                             <div className="col-md-4">
                                 <div className="box">
                                     <div className="key-icon">
-                                        <Image src="/assets/img/svg/thrd.png" alt="" className='h-auto w-auto' width={500} height={500} />
+                                        <Image src="/assets/img/svg/thrd.png" alt="Risk Mitigation - bluSwap" className='h-auto w-auto' width={500} height={500} />
                                     </div>
                                     <div className="key-info">
                                         <h4>Risk Mitigation</h4>

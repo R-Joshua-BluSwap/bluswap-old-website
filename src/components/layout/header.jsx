@@ -73,12 +73,12 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item d-lg-none">
-                                    <Link className="nav-link active" aria-current="page" href="https://finex.bluswap.co/login" onClick={closeNavbar}>
+                                    <Link className="nav-link active" aria-current="page" target='_blank' href="https://finex.bluswap.co/login" onClick={closeNavbar}>
                                         Sign In
                                     </Link>
                                 </li>
                                 <li className="nav-item d-lg-none">
-                                    <Link className="nav-link active btn btn-green px-4" aria-current="page" href="https://finex.bluswap.co/register" onClick={closeNavbar}>
+                                    <Link className="nav-link active btn btn-green px-4" aria-current="page" target='_blank' href="https://finex.bluswap.co/register" onClick={closeNavbar}>
                                         Sign Up
                                     </Link>
                                 </li>

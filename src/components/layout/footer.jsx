@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-3">
             <div className="logo text-center">
-                <Image src="/assets/img/logo-footer.png" alt="" className="w-auto h-auto" height={200} width={200} />
+                <Image src="/assets/img/logo-footer.png" alt="bluSwap - Your Fintech Frontier" className="w-auto h-auto" height={200} width={200} />
                 <p className="fs-5">
                   Your Fintech Frontier
                 </p>
@@ -119,7 +119,7 @@ export default function Footer() {
                 <li>
                   <div className="member-logo">
                     <p>PCI Membership - 1847</p>
-                    <Image src="/assets/img/partners.webp" alt="" height={200} width={200} />
+                    <Image src="/assets/img/partners.webp" alt="Payment Council of India" height={200} width={200} />
                   </div>
                 </li>
               </ul>

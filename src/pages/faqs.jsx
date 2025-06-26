@@ -9,6 +9,16 @@ export default function Faqs() {
                 <title>FAQs | bluSwap Help Center</title>
                 <meta name="description" content="Find answers to common questions about bluSwap's secure transactions, API integration, and financial solutions in our comprehensive FAQ section." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="keywords" content="" />
+                <meta name="url" content="https://www.bluswap.co/faqs" />
+
+                <meta property="og:title" content="FAQs | bluSwap Help Center" />
+                <meta property="og:description" content="Find answers to common questions about bluSwap's secure transactions, API integration, and financial solutions in our comprehensive FAQ section." />
+                <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
+                <meta property="og:url" content="https://www.bluswap.co/faqs" />
+                <meta property="og:type" content="website" />
+
+                <meta name="canonical" content="https://www.bluswap.co/faqs" />
             </Head>
             <>
                 <main>
@@ -26,7 +36,7 @@ export default function Faqs() {
                                 </div>
                                 <div className="col-md-6 order-1 order-md-2">
                                     <div className="faq-img">
-                                        <Image src="/assets/img/faq-main.svg" alt="" className='img-fluid' height={500} width={500} />
+                                        <Image src="/assets/img/faq-main.svg" alt="FAQ - bluSwap" className='img-fluid' height={500} width={500} />
                                     </div>
                                 </div>
                             </div>

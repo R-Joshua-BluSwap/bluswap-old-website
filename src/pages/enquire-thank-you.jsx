@@ -1,4 +1,4 @@
-// pages/thank-you.js
+// pages/enquire-thank-you.js
 import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -92,5 +92,3 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
-
-

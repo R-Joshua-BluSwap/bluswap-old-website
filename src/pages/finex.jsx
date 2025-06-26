@@ -11,7 +11,17 @@ export default function Finex() {
                     <title>FineX - Payment SaaS &  Marketplace Offerings - bluSwap</title>
                     <meta name="description" content="Welcome to bluSwap FineX, your all-in-one payment solution designed to streamline financial operations and accelerate business growth. Get started today." />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <meta name="keywords" content="Payment SaaS, Marketplace Offerings, SaaS Solutions, Automated Cash Flow Management"/>
+                    <meta name="keywords" content="Payment SaaS, Marketplace Offerings, SaaS Solutions, Automated Cash Flow Management, Unified Payment Processing" />
+                    <meta name="url" content="https://www.bluswap.co/finex" />
+
+                    <meta property="og:title" content="FineX - Payment SaaS &  Marketplace Offerings - bluSwap" />
+                    <meta property="og:description" content="Welcome to bluSwap FineX, your all-in-one payment solution designed to streamline financial operations and accelerate business growth. Get started today." />
+                    <meta property="og:image" content="https://www.bluswap.co/favicon.png" />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
+                    <meta property="og:url" content="https://www.bluswap.co/finex" />
+                    <meta property="og:type" content="website" />
+                    <meta name="canonical" content="https://www.bluswap.co/finex" />
                 </Head>
                 <></>
                 <main>
@@ -51,14 +61,14 @@ export default function Finex() {
                             </div>
                             <div className="col-md-5">
                                 <div className="marketplace-imgs">
-                                    <img src="/assets/img/finex-img.svg" alt="" />
+                                    <img src="/assets/img/finex-img.svg" alt="FINEX - bluSwap" />
                                 </div>
                             </div>
                         </div>
                         <div className="row mt-md-5 pt-md-5">
                             <div className="col-md-5 d-flex align-items-center justify-content-end justify-content-md-start order-2 order-md-1 pb-md-5">
                                 <div className="saas-img">
-                                    <img src="/assets/img/finex-saas.svg" alt="" />
+                                    <img src="/assets/img/finex-saas.svg" alt="FINEX SaaS - bluSwap" />
                                 </div>
                             </div>
                             <div className="col-md-7 order-1 order-md-2">
@@ -96,7 +106,7 @@ export default function Finex() {
                             <div className="row px-2 px-md-0">
                                 <div className="col-md-5 d-flex">
                                     <div className="blufin-img">
-                                        <img src="/assets/img/blufin.svg" alt="" />
+                                        <img src="/assets/img/blufin.svg" alt="BluFin360 - Smart Banking Solutions for Business" />
                                     </div>
                                 </div>
                                 <div className="col-md-7">
@@ -159,7 +169,7 @@ export default function Finex() {
                                 </div>
                                 <div className="col-md-5 order-1 order-md-2">
                                     <div className="floqast-img">
-                                        <img src="/assets/img/floqast.svg" alt="" />
+                                        <img src="/assets/img/floqast.svg" alt="SaaS Solutions - bluSwap" />
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +177,7 @@ export default function Finex() {
                             <div className="row pt-md-5">
                                 <div className="col-md-5">
                                     <div className="quickflow-img">
-                                        <img src="/assets/img/loan.svg" alt="" />
+                                        <img src="/assets/img/loan.svg" alt="QuickFlow - OD & Short Term Loan" />
                                     </div>
                                 </div>
                                 <div className="col-md-7">

@@ -5,7 +5,7 @@ export default function Trustcenter() {
   return (
     <>
       <Head>
-        <title>Trust Center</title>
+        <title>Trust Centre</title>
         <meta name="description" content="Learn about bluSwap's security measures, compliance, and trust initiatives. Your data security is our priority." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="trust center, security, compliance, bluSwap" />
@@ -25,7 +25,7 @@ export default function Trustcenter() {
       <div className="row align-items-center mb-md-5">
         <div className="col-md-6 order-2 order-md-1">
           <div className="contact-title">
-            <h1>Trust Center</h1>
+            <h1>Trust Centre</h1>
           </div>
         </div>
       </div>

@@ -83,7 +83,7 @@ export default function Footer() {
                   <Link href="/contact-us">Contact Us </Link>
                 </li>
                 <li>
-                  <Link href="/trust-center">Trust Center </Link>
+                  <Link href="/trust-centre">Trust Centre </Link>
                 </li>
               </ul>
             </div>

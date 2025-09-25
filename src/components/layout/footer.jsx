@@ -82,6 +82,9 @@ export default function Footer() {
                 <li>
                   <Link href="/contact-us">Contact Us </Link>
                 </li>
+                <li>
+                  <Link href="/trust-center">Trust Center </Link>
+                </li>
               </ul>
             </div>
             <div className="col-md-2">

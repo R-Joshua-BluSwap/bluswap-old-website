@@ -154,7 +154,7 @@ const TermsOfService = () => {
                     <p>Questions about the Terms of Service should be sent to us at&nbsp;support@bluSwap.co</p>
                     <p>bluSwap.co</p>
                     <p>WhatsApp: +91-8296210723</p>
-                    <p>bluswap.psps@gmail.com</p>
+                    <p>info@bluswap.co</p>
                     <p>This comprehensive set of terms and conditions outlines the rights, responsibilities, and procedures governing the use of bluSwap&rsquo;s FastFlow Pay services. Customers are encouraged to review and understand these terms.</p>
                 </div>
 

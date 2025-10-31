@@ -161,9 +161,9 @@ export default function ContactUs() {
                   <h3>Address</h3>
                   <p>
                     WebFinex TechFusion Pvt Ltd<br />
-                    #334 StartUp Huts,<br />
-                    105, 1st floor, 27* Main Road, Sector 2, HSR Layout,<br />
-                    Bangalore - 560102.
+                    StartUpHuts 108 3rd Floor<br />
+                    27th Main Road HSR Layout Sector 2, HSR Layout, Bangalore, Bangalore South,<br />
+                    Karnataka, India, 560102.
                   </p>
                   <hr className="d-md-none address-line" />
                 </div>
@@ -177,7 +177,9 @@ export default function ContactUs() {
                 <div className="col-md-6 details-box border-end">
                   <h3>Registered Address</h3>
                   <p>
-                    WebFinex TechFusion Pvt Ltd <br /> 2HVC+V3P, Ashram Rd, beside Navgujarat College Of <br /> Computer Applications, nr. Hyatt Regency, Income Tax, Usmanpura,<br />Ahmedabad, Gujarat 380009
+                    WebFinex TechFusion Pvt Ltd <br /> OFFICE NO. 301, 3rd FLOOR, TRYKSHA DESIRE, <br /> NR. KIRTIDHAM DERASAR,
+                    OPP. SHIVSHAKTI BUS STOP,<br /> Chandkheda, Ahmedabad, Gandhinagar, Gujarat,
+                    India, 382424
                   </p>
                   <hr className="d-md-none address-line" />
                 </div>

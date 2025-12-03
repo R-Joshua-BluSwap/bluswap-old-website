@@ -83,7 +83,8 @@ export default function Footer() {
                   <Link href="/contact-us">Contact Us </Link>
                 </li>
                 <li>
-                  <Link href="/trust-centre">Trust Centre </Link>
+                  <Link href="https://trust.bluswap.co/"   target="_blank" 
+  rel="noopener noreferrer">Trust Centre </Link>
                 </li>
               </ul>
             </div>
